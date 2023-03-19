@@ -1,0 +1,117 @@
+body {
+  font-family: "Outfit";
+  font-size: 18px;
+  background-color: #0d192c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.card {
+  position: relative;
+  width: 350px;
+  height: 596px;
+  background-color: #15263f;
+  padding: 24px 24px;
+  border-radius: 15px;
+}
+
+.nft:hover {
+  color: #00fff8;
+}
+
+.card h1 {
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 22px;
+  line-height: 28px;
+  margin-top: 24px;
+}
+.card h1:hover {
+  color: #00fff8;
+}
+
+.nft {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 28px 0;
+  border-bottom: 1px solid #2e405a;
+  padding-bottom: 24px;
+}
+
+.time {
+  display: flex;
+  font-weight: 400;
+  color: #8bacd9;
+}
+
+.price {
+  display: flex;
+  font-weight: 600;
+  color: #00fff8;
+}
+
+.price img {
+  margin-right: 6.48px;
+}
+.time img {
+  margin-right: 7.7px;
+}
+
+.card p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  margin-top: 16px;
+  color: #8bacd9;
+}
+.image-zemodan {
+  background-color: #00fff8;
+  position: absolute;
+  width: 302px;
+  height: 302px;
+  top: 24px;
+  left: 24px;
+  border-radius: 8px;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-zemodan:hover {
+  opacity: 0.5;
+}
+.avatari {
+  display: flex;
+  align-items: center;
+}
+.avatari img {
+  width: 33px;
+  height: 33px;
+  margin-right: 16px;
+  border: 1px solid #ffffff;
+  border-radius: 100%;
+}
+.avatari div {
+  color: #8bacd9;
+}
+.avatari span {
+  color: white;
+}
+.avatari span:hover {
+  color: #00fff8;
+}
